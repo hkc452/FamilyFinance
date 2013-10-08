@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:Android="http://schemas.android.com/apk/res/android"
+    Android:layout_width="fill_parent"
+    Android:layout_height="fill_parent"
+    Android:orientation="vertical" >
+
+
+    <!-- 购买和商品详情 -->
+
+    <LinearLayout
+        Android:layout_width="wrap_content"
+        Android:layout_height="wrap_content"
+        Android:layout_gravity="right"
+        Android:orientation="horizontal" >
+
+        <CheckBox
+            Android:id="@+id/checkItem"
+            Android:layout_width="wrap_content"
+            Android:layout_height="wrap_content"
+            Android:layout_margin="5px" />
+
+        <Button
+            Android:id="@+id/detailItem"
+            Android:text="hehe"
+            Android:layout_width="wrap_content"
+            Android:layout_height="wrap_content"
+            Android:layout_margin="5px" />
+    </LinearLayout>
+
+</LinearLayout>
